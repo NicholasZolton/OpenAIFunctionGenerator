@@ -11,7 +11,7 @@
 	<h1>What is this tool?</h1>
 	<p>
 		This tool is designed to help you generate the JSON used in the
-		<a href="https://platform.openai.com/docs/api-reference/chat/create#chat/create-functions">
+		<a target="_blank" href="https://platform.openai.com/docs/api-reference/chat/create#chat/create-functions">
 		OpenAI's API syntax for Function Calling</a>. 
 	</p>
 
@@ -19,8 +19,9 @@
 
 	<p>
 		All you have to do is fill out the form, hit
-		the "Generate" button, and copy the JSON that is generated into your function for the OpenAI
-		call.
+		the "Generate" button, and copy the JSON that
+		is generated into your "functions" array
+		for the OpenAI call.
 	</p>
 
 	<div id="image-row">

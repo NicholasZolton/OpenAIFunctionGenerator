@@ -61,7 +61,7 @@
 <main>
 	<div id="creation-form">
 		<hgroup>
-			<h1 style="margin-bottom: 0px;">Create Your Function</h1>
+			<h1 style="margin-bottom: 0px;">Create Your Function 🛠️</h1>
 			<h1 style="margin: 0px;"><a id="what-link" href="{base}/info">What is this tool?</a></h1>
 		</hgroup>
 		<h3>Name of the function:</h3>
@@ -196,6 +196,7 @@
 		border-radius: 10px;
 		padding: 30px;
 		margin: 50px;
+		background-color: white;
 	}
 
 	main {
@@ -205,6 +206,7 @@
 		align-items: center;
 		width: 100vw;
 		overflow-x: hidden;
+		background-image: linear-gradient(95.2deg, rgba(173,252,234,0.6) 26.8%, rgba(192,229,246,0.6) 64%);
 	}
 
 </style>
