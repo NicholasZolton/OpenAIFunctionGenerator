@@ -62,7 +62,7 @@
 	<div id="creation-form">
 		<hgroup>
 			<h1 style="margin-bottom: 0px;">Create Your Function</h1>
-			<h1 style="margin: 0px;"><a href="{base}/info">What is this tool?</a></h1>
+			<h1 style="margin: 0px;"><a id="what-link" href="{base}/info">What is this tool?</a></h1>
 		</hgroup>
 		<h3>Name of the function:</h3>
 		<input type="text" bind:value={function_name} />
@@ -111,6 +111,17 @@
 </main>
 
 <style>
+
+	#what-link {
+		/* make this link always underlined */
+		text-decoration: underline;
+		transition: 0.2s;
+	}
+
+	#what-link:hover {
+		/* make this link darker when hovered over */
+		filter: brightness(120%);
+	}
 
 	a {
 		color: inherit;
@@ -195,4 +206,5 @@
 		width: 100vw;
 		overflow-x: hidden;
 	}
+
 </style>
