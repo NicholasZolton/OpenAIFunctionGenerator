@@ -3,3 +3,9 @@
 </svelte:head>
 
 <slot />
+
+<style>
+	:global(html) {
+		overflow-x: hidden;
+	}
+</style>
