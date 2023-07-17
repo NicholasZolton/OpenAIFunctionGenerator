@@ -29,6 +29,12 @@
 		<img src="{base + "/showing_api_call.png"}" alt="Example of pasting JSON." />
 	</div>
 
+	<p>
+		If you found this at all helpful, feel free to contribute to <a target="_blank" href="https://github.com/NicholasZolton/OpenAIFunctionGenerator">this project</a> or
+		check out my <a target="_blank" href="https://www.youtube.com/@nicholas-coding-corner">YouTube</a> for deploying a Sveltekit project like this to GitHub
+		for free
+	</p>
+
 </main>
 
 <style>
