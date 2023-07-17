@@ -62,7 +62,7 @@
 	<div id="creation-form">
 		<hgroup>
 			<h1 style="margin-bottom: 0px;">Create Your Function</h1>
-			<h1 style="margin: 0px;"><a href="/info">What is this tool?</a></h1>
+			<h1 style="margin: 0px;"><a href="{base}/info">What is this tool?</a></h1>
 		</hgroup>
 		<h3>Name of the function:</h3>
 		<input type="text" bind:value={function_name} />
